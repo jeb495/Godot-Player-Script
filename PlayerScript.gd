@@ -26,7 +26,6 @@ func _physics_process(_delta):
 	motion = move_and_slide(motion * movespeed)
 	look_at(get_global_mouse_position())
 
-	if Input.is_action_just_pressed("LMB"):
-		fire()
+	
 
 
